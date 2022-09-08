@@ -45,7 +45,7 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1rem;
+    padding: 1rem;
     
 }
 .col_2{
@@ -67,32 +67,38 @@ body{
 /*footer*/
 .struments{
     background-color: rgba(128, 128, 128, 0.246);
-    height: 60px;
     color: white;
 }
-.row .struments{
+.struments{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .col_3{
-    width: calc(100%/ 12 * 3);
+    
     padding-left: 0.5rem;
 }
 .col_3 i{
     font-size: 25px;
 }
-.col_8 i{
+.col_6 i{
     font-size: 25px;
 }
 .fa-video{
     padding-left: 1.5rem;
 }
 
-.col_8{
-    width: calc(100%/ 12 * 8);
+.col_6{
+    
     padding-left: 1rem; 
 }
-.col_8 .fa-solid{
+.col_6 .fa-solid{
     padding-left: 2.5rem;
+}
+
+.end{
+    color: red;
+    background-color: grey;
+    
 }
