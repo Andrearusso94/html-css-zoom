@@ -16,7 +16,7 @@ body{
 /*region cards*/
 
 #zoom{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .row{
@@ -26,5 +26,15 @@ body{
 .col_2{
     width: calc(100%/ 12 * 1.70);
     padding: 0.5rem;
-    margin-top: 0.5rem;   
+    margin-top: 0.5rem;
+    position: relative;   
+}
+.name{
+    background-color: rgba(128, 128, 128, 0.655);
+    color: white;
+    position: absolute;
+    bottom: 0.75rem;
+    width: 50%;
+    height: 25px;
+    padding: 0.20rem;
 }
